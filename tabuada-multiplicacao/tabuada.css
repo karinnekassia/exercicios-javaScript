@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(#011526, #012E40, #025959);
+    background-attachment: fixed;
+    font: normal 15pt times;
+    color: white;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 20px 0; /* Espaçamento superior e inferior para o cabeçalho */
+}
+
+section {
+    background: #012e4040;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 500px; /* Largura máxima do conteúdo */
+    /* width: 500px; */
+    margin: auto;
+    box-shadow: 5px 5px 5px #025959;
+    /* #ff00d9af, #e942b149*/
+}
+
+div{
+    text-align: center;
+    margin: 1em;
+}
+
+footer {
+    margin: 10px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 10px 0; /* Espaçamento superior e inferior para o rodapé */
+}
+
+/* Media Query para telas menores */
+@media (max-width: 768px) {
+    section {
+        padding: 10px;
+        width: 90%; /* Reduz a largura para ocupar 90% da tela */
+    }
+}

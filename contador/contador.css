@@ -1,0 +1,50 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    background: linear-gradient(#d900ffb4, #ff00d9af, #dc59cd, #e942b149);
+    background-attachment: fixed;
+    font: normal 15pt Arial;
+    color: white;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 20px 0; /* Espaçamento superior e inferior para o cabeçalho */
+}
+
+section {
+    background: linear-gradient (#c557d857, #dc59cd5f);
+    /* linear-gradient(#d900ffb4, #dc59cd) */
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 500px; /* Largura máxima do conteúdo */
+    /* width: 500px; */
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.417);
+    /* #ff00d9af, #e942b149*/
+}
+
+div{
+    text-align: center;
+    margin: 1em;
+}
+
+footer {
+    margin: 10px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 10px 0; /* Espaçamento superior e inferior para o rodapé */
+}
+
+/* Media Query para telas menores */
+@media (max-width: 768px) {
+    section {
+        padding: 10px;
+        width: 90%; /* Reduz a largura para ocupar 90% da tela */
+    }
+}

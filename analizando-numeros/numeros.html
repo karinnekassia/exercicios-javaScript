@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Contador</title>
+    <link rel="stylesheet" href="numeros.css">
+</head>
+<body>
+    <header>
+        <h1>Analizador de números</h1>
+        <p class="paragrafo__um">Vamos analizar os valores adicionados.
+            <br>
+        Poderão ser adicionados valores entre 1 e 100, os quais não podem ser número repetidos, você vai saber qual o menor e maior número adicionado, a soma desses valores e a média deles.</p>
+    </header>
+
+    <section>
+        <div>
+                Número entre 1 e 100: 
+                <br><br><input type="number" name="fnum" id="fnum"> <br><br>
+                <input type="button" value="Adicionar" onclick="adicionar()">
+                <br><br><select name="flista" id="flista" size="6"></select>
+                <br><br><input type="button" value="Finalizar" onclick="finalizar()">
+                <!-- onclick="numero()" -->
+        </div>
+        <div id="res">
+             <p>
+                <!-- <input type="number" name="fim" id="txtf"> </br> -->
+                <!-- <input type="button" value="Finalizar" onclick="finalizar()"></p> -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Karinne Kassia</p>
+    </footer>
+
+<script src="numeros.js"></script>
+</body>
+</html>
